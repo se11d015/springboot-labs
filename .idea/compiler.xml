@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="add-service" />
+        <module name="master-config-client" />
+        <module name="master-config-server" />
+        <module name="service-discovery" />
+        <module name="magic-value" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="add_service" target="21" />
+      <module name="add_service_master" target="21" />
+      <module name="magic_value" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="add-service" options="-parameters" />
+      <module name="add_service" options="-parameters" />
+      <module name="add_service_master" options="-parameters" />
+      <module name="magic-value" options="-parameters" />
+      <module name="magic_value" options="-parameters" />
+      <module name="master-config-client" options="-parameters" />
+      <module name="master-config-server" options="-parameters" />
+      <module name="service-discovery" options="-parameters" />
+    </option>
+  </component>
+</project>
